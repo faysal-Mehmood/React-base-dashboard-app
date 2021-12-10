@@ -1,0 +1,64 @@
+.navbar {
+  max-width: 1758px;
+  margin: auto;
+  padding: 18px 19px 16px 50.91px;
+  background: linear-gradient(90deg, #091e3a 0%, #2f80ed 50%, #2d9ee0 100%);
+
+  .name-logo {
+    margin: 0 !important;
+    padding: 0 !important;
+    img {
+      width: 49.91px;
+      height: 51.27px;
+    }
+  }
+  .cat-name {
+    margin-left: 8.17px;
+
+    .cat {
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 44px;
+      color: #ffffff;
+      margin: 0 !important;
+    }
+    .cat-pates {
+      display: flex;
+      align-items: center;
+
+      .cat-n-1 {
+        font-size: 14px;
+        line-height: 45px;
+        color: #ffffff;
+      }
+      span {
+        font-size: 14px;
+        line-height: 45px;
+        color: #ffffff;
+        margin: 0 8px 18px;
+      }
+      .cat-n-2 {
+        font-size: 14px;
+        line-height: 45px;
+        color: #2f81ed;
+      }
+    }
+  }
+
+  .buttons {
+    display: flex;
+    align-items: initial;
+    flex-direction: column;
+    margin-left: auto;
+
+    .btn-1 {
+      margin: 0 0 19px;
+      min-width: 150.07px;
+      min-height: 39.27px;
+    }
+    .btn-2 {
+      min-width: 232.82px;
+      min-height: 39.27px;
+    }
+  }
+}

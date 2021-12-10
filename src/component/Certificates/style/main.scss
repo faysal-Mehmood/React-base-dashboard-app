@@ -1,0 +1,25 @@
+.main-dash-board {
+  padding: 31px 82px 73px;
+  max-width: 1758px;
+  margin: auto;
+
+  .dash-board-heading {
+    margin: 0 0 115px 7px;
+    .main-heading {
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 44px;
+      color: #2b3743;
+    }
+    .sub_heading {
+      font-size: 25px;
+      line-height: 37px;
+      color: #2b3743;
+    }
+  }
+
+  .all-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+}
